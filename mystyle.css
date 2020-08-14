@@ -1,0 +1,63 @@
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  
+  
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+  .carousel-inner img {
+    
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .col-md-12{
+      text-align: center;
+      background-color: #2d2d30;
+      padding-left: 6%;
+      color: white;
+      margin:center;
+      margin-top: 3%;
+  }
+
+  
+  .bg-1{
+    margin-top: 7%;
+  }
+  .container{   margin-top: 7%;
+  }
+  #form{
+    margin-top: 3%;
+    padding: 3%;
+  }
